@@ -4,7 +4,7 @@
 <p><font size="1px">Aqui é preciso decifrar. Aquele que tem sabedoria calcule o número da Besta, pois o número representa o nome de um ser humano. Seu número é 666 (χξϛ)! Ap 13.18 </font>
 
 <br><font size="2px"><b>Informe o nome em <font color="red">GREGO</font> para calcular o seu valor:</b><p>
-<input id="edValue" type="text" size="30"><br>
+<input id="edValue" type="text" size="40" height="20"><br>
 <input type="button" value="CALCULAR" onclick="edValueKeyPress()"><br>
 <b><mark><font size="4px"><span id="lblValue">RESULTADO: </span></font><mark></b>
 
@@ -23,6 +23,7 @@
 </a>
 <br>
 youtube.com/c/APOCALIPSEEMFOCO<p>
+
 <script>
 
 function edValueKeyPress() {
@@ -68,7 +69,7 @@ function edValueKeyPress() {
 	    	count+=70;
 	    }if(s[i] == "Π" || s[i] == "π"){
 	    	count+=80;
-	    }if(s[i] == "Ϙ" || s[i] == "Ϟ" || s[i] == "ϟ" || s[i] == "Ҁ" || s[i] == "ҁ"){
+	    }if(s[i] == "Ϙ" || s[i] == "Ϟ" || s[i] == "ϟ" || s[i] == "Ҁ" || s[i] == "ҁ"|| s[i] == "ϙ" ){
 	    	count+=90;
 	    }if(s[i] == "Ρ" || s[i] == "ρ" || s[i] == "ῤ" || s[i] == "Ρ" || s[i] == "ῥ" || s[i] == "Ῥ"){
 	    	count+=100;
@@ -99,4 +100,3 @@ function edValueKeyPress() {
 	lblValue.innerText = "RESULTADO= " + count;
 }
 </script>
-
